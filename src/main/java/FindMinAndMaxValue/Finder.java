@@ -4,7 +4,7 @@ class Finder{
 
     public static void main(String[] args) {
 
-        int tab[]={12,335,67,5,42,23,4567,4335,6772};
+        int tab[]={12,335,67,11,42,23,4567,4335,6772};
 
         int min = tab[0];    // w tym miejscu przypisujemy od którego elementu tablicy ma iterować (możemy zacząć od którego chcemy np. int min = tab[3])
         int max = tab[0];

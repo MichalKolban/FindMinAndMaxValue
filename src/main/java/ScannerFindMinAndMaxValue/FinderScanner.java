@@ -29,9 +29,8 @@ public class FinderScanner {
 
         int tab[] = {num1, num2, num3, num4, num5};
 
-        int minimal = tab.length;
-        int maximal = tab.length;
-
+        int minimal = tab[0];
+        int maximal = tab[0];
         for (int i = 0; i < tab.length; i++) {
             if (tab[i] < minimal) {
                 minimal = tab[i];
